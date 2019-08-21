@@ -6,8 +6,8 @@
   "scripts": {
     "test": "jest",
     "test-update-snapshots": "jest -u",
-    "start": "parcel -d dev index.html",
-    "build": "parcel build -d dist src/index.html"
+    "start": "parcel -d dev ./src/index.html",
+    "build": "parcel build -d docs ./src/index.html"
   },
   "repository": {
     "type": "git",
