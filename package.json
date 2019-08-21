@@ -1,0 +1,28 @@
+{
+  "name": "nordhagen.github.io",
+  "version": "1.0.0",
+  "description": "Github pages repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-update-snapshots": "jest -u",
+    "start": "parcel -d dev index.html",
+    "build": "parcel build -d dist src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://nordhagen@github.com/nordhagen/nordhagen.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nordhagen/nordhagen.github.io/issues"
+  },
+  "homepage": "https://github.com/nordhagen/nordhagen.github.io#readme",
+  "dependencies": {
+    "parcel": "^1.12.3"
+  },
+  "devDependencies": {
+    "sass": "^1.22.10"
+  }
+}
